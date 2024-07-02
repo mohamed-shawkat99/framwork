@@ -1,0 +1,6 @@
+.start{
+    height: 110vh !important;
+    flex-direction: column;
+    background-color: #1abc9c;
+    color: white;
+   }

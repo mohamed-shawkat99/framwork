@@ -1,0 +1,61 @@
+
+
+
+.portfolio{
+    margin-top: 100px;
+}
+.portfolio h1{
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.portfolio-hover{
+    position: absolute;
+    width: 94.5%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    opacity: 0;
+    transition: 0.5S;
+    cursor: pointer;
+}
+.portfolio-hover i{
+    font-size: 100px;
+}
+.portfolio-hover:hover{
+    opacity: 0.5;
+}
+
+.main{
+    width: 50%;
+}
+
+#lightBoxContainer{
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    inset: 0;
+
+}
+#closeSlider{
+    cursor: pointer;
+}
+#lightBox{
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+#closeSlider{
+    top: -20px;
+    right: 0%;
+}
+
+
+
+.hover::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    z-index: 1;
+}
